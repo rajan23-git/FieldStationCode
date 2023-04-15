@@ -1,0 +1,9 @@
+[Unit]
+Description=Read Serial Daemon
+
+[Service]
+ExecStart=python /home/bagel1/TeamLiftCSWaterProject/Field/read_serial/read_serial.py
+WorkingDirectory=/home/bagel1/TeamLiftCSWaterProject/Field/read_serial/
+
+[Install]
+WantedBy=multi-user.target
